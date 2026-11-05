@@ -1,0 +1,63 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family:
+    "Noto Sans TC",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: #f5f5f5;
+  color: #141414;
+}
+
+.dashboard-hero {
+  background: linear-gradient(135deg, #fafafa, #ffffff 55%);
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+}
+
+.dashboard-hero h1,
+.dashboard-hero h2 {
+  margin: 0;
+  color: #141414;
+}
+
+.dashboard-hero p {
+  margin: 8px 0 0;
+  color: #8c8c8c;
+  font-size: 0.95rem;
+}
+
+.stat-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #f0f0f0;
+  color: #262626;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+}
+
+/* Force sider text contrast in grayscale theme */
+.ant-layout-sider {
+  background: #141414 !important;
+}
+
+.ant-layout-sider .ant-menu-dark,
+.ant-layout-sider .ant-menu {
+  background: transparent !important;
+}
+
+.ant-layout-sider .ant-typography,
+.ant-layout-sider a {
+  color: #f5f5f5 !important;
+}

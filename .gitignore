@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+.DS_Store
+*.log
+.env*
+.pnpm-store/
+.vercel/
+admin/dist/
+web/.next/
+
+# 合約、報價與會議紀錄不上公開倉庫
+*.pdf
+*.docx

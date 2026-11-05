@@ -1,0 +1,11 @@
+{
+  "name": "chengyi-print-refine",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "pnpm --dir web dev",
+    "dev:admin": "pnpm --dir admin dev -- --port 5173",
+    "build:web": "pnpm --dir web build",
+    "build:admin": "pnpm --dir admin build"
+  }
+}
